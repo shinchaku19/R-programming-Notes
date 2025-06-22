@@ -4,6 +4,9 @@
 > update.packages("tidyverse")
 > library(tidyverse) *//data//*
 > library(ggplot2) *//data library//
-> data("diamonds") *//locate the data//
+> data("diamonds") *//locate the data(diamonds)//
 > view(diamonds) *//see big table//
-> head(diamonds) *//see smaller table//
+> head(diamonds) *//get preview//
+> str(diamonds) *//structure function//
+> colnames(diamonds) *//column names
+>mutate(diamonds, carat_2=carat*100) *//add another column
